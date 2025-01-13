@@ -6,13 +6,13 @@ const Header = () => {
     <View style={styles.container}>
       <Image
         source={{
-          uri: "https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg",
+          uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHIDo5bQBzNbYmXkbl1ZuY9GTjvt5xAgLx1g&s",
         }}
         style={styles.image}
       />
       <View style={styles.textContainer}>
         <Text style={styles.welcome}>Welcome back</Text>
-        <Text style={styles.name}>John Doe</Text>
+        <Text style={styles.name}>John Wick</Text>
       </View>
     </View>
   );

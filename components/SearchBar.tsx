@@ -1,9 +1,23 @@
+import React, { useState, useEffect } from "react";
 import { StyleSheet, TextInput, View, TouchableOpacity } from "react-native";
-import React from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
 
-const SearchBar = () => {
+interface SearchBarProps {
+  onSearch: (query: string) => void; // Callback to pass search query to parent
+}
+
+const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
+  const [query, setQuery] = useState("");
+
+  useEffect(() => {
+    const delayDebounceFn = setTimeout(() => {
+      onSearch(query);
+    }, 500);
+
+    return () => clearTimeout(delayDebounceFn);
+  }, [query]);
+
   return (
     <View style={styles.container}>
       <View style={styles.searchSection}>
@@ -17,7 +31,19 @@ const SearchBar = () => {
           style={styles.input}
           placeholder="Search here..."
           placeholderTextColor="#666"
+          value={query}
+          onChangeText={setQuery}
         />
+        {query.length > 0 && (
+          <TouchableOpacity onPress={() => setQuery("")}>
+            <Ionicons
+              name="close-circle-outline"
+              size={20}
+              color="#666"
+              style={styles.clearIcon}
+            />
+          </TouchableOpacity>
+        )}
       </View>
     </View>
   );
@@ -46,7 +72,7 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     fontSize: 16,
-    color: "#333",
-    padding: 0, // Remove default padding
+    color: "white",
+    padding: 0,
   },
 });
