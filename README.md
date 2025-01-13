@@ -1,6 +1,6 @@
-# 🎮 GameOAI - Your Ultimate Gaming Companion
+# 🎮 GemOAI - Your Ultimate Gaming Companion
 
-**GameOAI** is a React Native app that brings you closer to the gaming world. Whether you're looking for the latest trending games, discovering hidden gems, or finding pro strategies, GameOAI has you covered. Powered by the [RAWG Gaming API](https://rawg.io/apidocs) and OpenAI, this app offers a seamless and immersive gaming experience.
+**GemOAI** is a React Native app that brings you closer to the gaming world. Whether you're looking for the latest trending games, discovering hidden gems, or finding pro strategies, GemOAI has you covered. Powered by the [RAWG Gaming API](https://rawg.io/apidocs) and OpenAI, this app offers a seamless and immersive gaming experience.
 
 ---
 
@@ -64,7 +64,7 @@ Discover new games based on genres and platforms. Perfect for gamers seeking fre
    ```
 2. Navigate to the project directory:
    ```bash
-   cd GameOAI
+   cd GemOAI
    ```
 3. Install dependencies:
    ```bash
