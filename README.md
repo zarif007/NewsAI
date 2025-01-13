@@ -50,10 +50,9 @@ Discover new games based on genres and platforms. Perfect for gamers seeking fre
 
 ## 🛠️ Technologies Used
 
-- **React Native**: For building a cross-platform app.
+- **React Native Expo**: For building a cross-platform app.
 - **RAWG API**: To fetch detailed and up-to-date game information.
 - **OpenAI API**: For generating intelligent strategies and tips.
-- **React Navigation**: For smooth page transitions and navigation.
 
 ---
 
@@ -75,6 +74,11 @@ Discover new games based on genres and platforms. Perfect for gamers seeking fre
    ```bash
    npx react-native run-android # For Android
    npx react-native run-ios # For iOS
+   ```
+5. Configure environment variables:
+   ```bash
+   EXPO_PUBLIC_RAWG_API_KEY=Your_RAWG_Api_key
+   EXPO_PUBLIC_OPENAI_API_KEY=Your_OPENAI_Api_key
    ```
 
 ---
