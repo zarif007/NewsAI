@@ -83,12 +83,6 @@ Discover new games based on genres and platforms. Perfect for gamers seeking fre
 
 ---
 
-## 📸 Screenshots
-
-Visit the [Screenshots Folder](https://your-link-to-screenshots.com) for more visuals of the app in action.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
@@ -101,11 +95,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 - Kudos to [OpenAI](https://openai.com/) for the powerful AI API.
 
 ---
-
-## 📧 Contact
-
-For queries or suggestions, reach out to **[Your Name](mailto:your-email@example.com)**.
-
----
-
-Feel free to replace placeholders like `yourusername`, `your-link-to-screenshots.com`, and your contact details!
